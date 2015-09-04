@@ -1,8 +1,9 @@
 <?php
 require_once('./cdnflush.class.php');
+require_once('./config.php');
 
 $hostname = $_POST['hostname'];
-$urls = $_POST['urls[]'];
+$urls = $_POST['urls'];
 $recipients = $_POST['recipients'];
 
 //TODO : add secret verification
